@@ -373,7 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     const message = encodeURIComponent(lines.join('\n'));
-    const phone = whatsapp.replace(/\D/g, '');
-    window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
+    const businessPhone = '31618164026';
+    window.open(`https://wa.me/${businessPhone}?text=${message}`, '_blank');
   });
 });

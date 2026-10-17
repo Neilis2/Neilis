@@ -1,15 +1,15 @@
 const translations = {
   es: {
-    pageTitle: "KEREN's Hair | Tu pelo, tu estilo",
-    metaDescription: "KEREN's Hair: trenzas y peinados para mujeres, hombres y niños.",
-    homeLabel: "KEREN's Hair, inicio", mainNavigation: "Navegación principal",
+    pageTitle: "Neilis | Tu pelo, tu estilo",
+    metaDescription: "Neilis: trenzas y peinados para mujeres, hombres y niños.",
+    homeLabel: "Neilis, inicio", mainNavigation: "Navegación principal",
     languageSelector: "Selector de idioma", languageLabel: "Idioma",
-    heroImageLabel: "Clientes de KEREN's Hair con distintos estilos de trenzas",
+    heroImageLabel: "Clientes de Neilis con distintos estilos de trenzas",
     navAbout: "Nosotros", navServices: "Servicios", navPortfolio: "Portafolio",
     navBook: "Reservar", bookNow: "Reservar ahora", heroLine1: "Tu pelo.",
-    heroLine2: "Tu estilo.", aboutEyebrow: "Sobre KEREN'S HAIR",
+    heroLine2: "Tu estilo.", aboutEyebrow: "Sobre Neilis",
     aboutHeading: "Tu belleza, a tu manera.",
-    aboutText1: "En KEREN'S Hair creemos que tu pelo es una forma de expresarte. Creamos trenzas y peinados con cuidado, técnica y atención a cada detalle.",
+    aboutText1: "En Neilis creemos que tu pelo es una forma de expresarte. Creamos trenzas y peinados con cuidado, técnica y atención a cada detalle.",
     aboutText2: "Queremos que salgas sintiéndote cómod@, segur@ y orgullos@ de tu estilo. Atendemos a mujeres, hombres y niñ@s con una experiencia cercana y personalizada.",
     servicesEyebrow: "Servicios", servicesHeading: "Un estilo para cada persona.",
     servicesText: "Elige tu categoría para descubrir los estilos disponibles, precios orientativos y tiempos de realización.",
@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const saveLanguage = (language) => {
     try {
-      localStorage.setItem('keren-hair-language', language);
+      localStorage.setItem('neilis-language', language);
     } catch {
       // The selected language still works when storage is unavailable.
     }
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let savedLanguage;
   try {
-    savedLanguage = localStorage.getItem('keren-hair-language');
+    savedLanguage = localStorage.getItem('neilis-language');
   } catch {
     savedLanguage = null;
   }

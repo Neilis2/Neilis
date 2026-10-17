@@ -21,12 +21,12 @@ const translations = {
     portfolioText: "Toca cada estilo para conocer su duración aproximada y más detalles.",
     womenStyles: "Estilos protectores y trenzas", menStyles: "Diseños definidos y actuales",
     kidsStyles: "Peinados cómodos y divertidos", photoComing: "Foto próximamente",
-    womenBoxPrice: "Desde €45 · 4–7 h", womenKnotlessPrice: "Desde €55 · 4–6 h",
-    womenCornrowsPrice: "Desde €35 · 2–4 h", womenFulaniPrice: "Desde €50 · 3–5 h",
-    womenHalfUpPrice: "Desde €45 · 3–4 h",
-    womenFeedInPrice: "Desde €55 · 4–7 h",
-    womenBohoPrice: "Desde €45 · 3–5 h", womenTwistsPrice: "Desde €40 · 3–5 h",
-    menCornrowsPrice: "Desde €35 · 2–4 h", menBoxPrice: "Desde €40 · 2–4 h",
+    womenBoxPrice: "Desde €65 · 4–7 h", womenKnotlessPrice: "Desde €80 · 4–6 h",
+    womenCornrowsPrice: "Desde €40 · 2–4 h", womenFulaniPrice: "Desde €60 · 3–5 h",
+    womenHalfUpPrice: "Desde €50 · 3–4 h",
+    womenFeedInPrice: "Desde €65 · 4–7 h",
+    womenBohoPrice: "Desde €55 · 3–5 h", womenTwistsPrice: "Desde €50 · 3–5 h",
+    menCornrowsPrice: "Desde €40 · 2–4 h", menBoxPrice: "Desde €50 · 2–4 h",
     kidsReference: "Imagen de referencia", kidsReferenceDesc: "Personalizado",
     boxDuration: "4–7 horas", knotlessDuration: "4–6 horas",
     shortDuration: "2–4 horas", mediumDuration: "3–5 horas",
@@ -47,6 +47,26 @@ const translations = {
     bookingText: "Completa el formulario y se abrirá WhatsApp con todos tus datos. Neilis te responderá con el precio exacto y la disponibilidad.",
     depositLabel: "Depósito:",
     depositText: "la cita se confirma con un depósito del 20%, enviado por un enlace de Revolut después de confirmar el precio.",
+    policiesEyebrow: "Información importante", policiesHeading: "Reservas, pagos y cancelaciones",
+    depositPolicyHeading: "Depósito y pago",
+    depositPolicyText: "Para confirmar una cita, se requiere un depósito del 20% del precio total. El 80% restante se paga el día del servicio. El depósito no es reembolsable en caso de cancelación tardía o inasistencia.",
+    reschedulePolicyHeading: "Cambios de fecha",
+    reschedulePolicyText: "Puedes mover tu cita una sola vez y sin costo adicional si avisas con más de 48 horas de anticipación. El depósito se transfiere a la nueva fecha, según disponibilidad. Un segundo cambio, o cualquier cambio con 48 horas o menos de anticipación, implica la pérdida del depósito.",
+    clientCancellationHeading: "Si cancelas",
+    clientCancellationText: "Si cancelas con 48 horas o menos de anticipación, o no te presentas, el depósito no es reembolsable.",
+    businessCancellationHeading: "Si KEREN's Hair cancela",
+    businessCancellationText: "Si debemos cancelar la cita, recibirás un reembolso total del depósito y tendrás prioridad para reagendar. Si el aviso es con menos de 24 horas, recibirás además un 10% de descuento en la cita reagendada, calculado sobre el precio base del peinado, sin domicilio ni accesorios.",
+    appointmentNoticesHeading: "Avisos adicionales",
+    sensitivityNotice: "Si tienes piel sensible, alergias conocidas o antecedentes de reacciones a productos capilares, avísanos antes de tu cita.",
+    tensionNotice: "Las trenzas ajustadas pueden generar tensión temporal. Por favor avísanos durante el servicio si sientes demasiada presión.",
+    withdrawalNotice: "Al tratarse de un servicio agendado, el derecho de desistimiento de 14 días de las compras a distancia no aplica una vez prestado el servicio.",
+    policyAgreementPrefix: "He leído y acepto la",
+    policyAgreementLink: "política de reservas, pagos y cancelaciones.",
+    policyAcceptanceRequired: "Debes aceptar la política de reservas, pagos y cancelaciones antes de enviar la reserva.",
+    privacyHeading: "Aviso de privacidad (AVG/GDPR)",
+    privacyPageTitle: "Aviso de privacidad | Neilis",
+    privacyText: "Recogemos tu nombre, WhatsApp, tipo y largo de cabello, estilo deseado y fecha preferida, únicamente para gestionar tu reserva y contactarte. No compartimos tus datos con terceros. Puedes solicitar la eliminación de tus datos en cualquier momento escribiéndonos por WhatsApp.",
+    privacyBack: "Volver a Neilis",
     nameLabel: "Nombre", namePlaceholder: "Tu nombre", whatsappLabel: "WhatsApp",
     genderLabel: "Género", selectOption: "Selecciona una opción",
     womanOption: "Mujer", manOption: "Hombre", childOption: "Niño/a",
@@ -74,8 +94,69 @@ const translations = {
     messageName: "Nombre", messageWhatsapp: "WhatsApp", messageHairType: "Tipo de cabello",
     messageHairLength: "Largo de cabello", messageStyle: "Estilo deseado",
     messageDetails: "Detalles del estilo", messageDate: "Fecha preferida",
+    messagePolicyAcceptance: "Política de reservas, pagos y cancelaciones aceptada",
     messagePhotoConsent: "Uso de foto en portafolio", messageMinor: "Reserva para un menor",
     yes: "Sí", no: "No"
+  },
+  nl: {
+    womenBoxPrice: "Vanaf €65 · 4–7 u", womenKnotlessPrice: "Vanaf €80 · 4–6 u",
+    womenCornrowsPrice: "Vanaf €40 · 2–4 u", womenFulaniPrice: "Vanaf €60 · 3–5 u",
+    womenHalfUpPrice: "Vanaf €50 · 3–4 u", womenFeedInPrice: "Vanaf €65 · 4–7 u",
+    womenBohoPrice: "Vanaf €55 · 3–5 u", womenTwistsPrice: "Vanaf €50 · 3–5 u",
+    menCornrowsPrice: "Vanaf €40 · 2–4 u", menBoxPrice: "Vanaf €50 · 2–4 u",
+    policiesEyebrow: "Belangrijke informatie", policiesHeading: "Reserveringen, betalingen en annuleringen",
+    depositPolicyHeading: "Aanbetaling en betaling",
+    depositPolicyText: "Om een afspraak te bevestigen, is een aanbetaling van 20% van de totale prijs vereist. De resterende 80% betaal je op de dag van de behandeling. De aanbetaling wordt niet terugbetaald bij een late annulering of als je niet komt opdagen.",
+    reschedulePolicyHeading: "Afspraak verzetten",
+    reschedulePolicyText: "Je kunt je afspraak één keer kosteloos verzetten als je dit meer dan 48 uur van tevoren laat weten. De aanbetaling wordt, afhankelijk van de beschikbaarheid, overgezet naar de nieuwe datum. Bij een tweede wijziging of een wijziging die 48 uur of minder voor de afspraak wordt doorgegeven, vervalt de aanbetaling.",
+    clientCancellationHeading: "Als jij annuleert",
+    clientCancellationText: "Als je 48 uur of minder voor de afspraak annuleert of niet komt opdagen, wordt de aanbetaling niet terugbetaald.",
+    businessCancellationHeading: "Als KEREN's Hair annuleert",
+    businessCancellationText: "Als wij de afspraak moeten annuleren, krijg je de volledige aanbetaling terug en krijg je voorrang bij het maken van een nieuwe afspraak. Als we dit minder dan 24 uur van tevoren laten weten, krijg je bovendien 10% korting op de nieuwe afspraak. Deze korting wordt berekend over de basisprijs van het kapsel, exclusief de toeslag voor service aan huis en accessoires.",
+    appointmentNoticesHeading: "Aanvullende informatie",
+    sensitivityNotice: "Laat het ons vóór je afspraak weten als je een gevoelige huid, bekende allergieën of eerdere reacties op haarproducten hebt gehad.",
+    tensionNotice: "Strakke vlechten kunnen tijdelijk spanning veroorzaken. Laat het ons tijdens de behandeling weten als je te veel druk voelt.",
+    withdrawalNotice: "Omdat het om een afspraak voor een dienst gaat, geldt het herroepingsrecht van 14 dagen voor aankopen op afstand niet zodra de dienst is uitgevoerd.",
+    policyAgreementPrefix: "Ik heb het",
+    policyAgreementLink: "reserverings-, betalings- en annuleringsbeleid gelezen en ga ermee akkoord.",
+    policyAcceptanceRequired: "Je moet akkoord gaan met het reserverings-, betalings- en annuleringsbeleid voordat je de reservering verstuurt.",
+    privacyHeading: "Privacyverklaring (AVG/GDPR)",
+    privacyPageTitle: "Privacyverklaring | Neilis",
+    languageSelector: "Taalkeuze", languageLabel: "Taal",
+    privacy: "Privacy", policies: "Beleid",
+    privacyText: "We verzamelen je naam, WhatsApp-nummer, haartype en haarlengte, gewenste stijl en voorkeursdatum uitsluitend om je reservering te beheren en contact met je op te nemen. We delen je gegevens niet met derden. Je kunt op elk moment via WhatsApp verzoeken om je gegevens te verwijderen.",
+    messagePolicyAcceptance: "Reserverings-, betalings- en annuleringsbeleid geaccepteerd",
+    privacyBack: "Terug naar Neilis"
+  },
+  en: {
+    womenBoxPrice: "From €65 · 4–7 hrs", womenKnotlessPrice: "From €80 · 4–6 hrs",
+    womenCornrowsPrice: "From €40 · 2–4 hrs", womenFulaniPrice: "From €60 · 3–5 hrs",
+    womenHalfUpPrice: "From €50 · 3–4 hrs", womenFeedInPrice: "From €65 · 4–7 hrs",
+    womenBohoPrice: "From €55 · 3–5 hrs", womenTwistsPrice: "From €50 · 3–5 hrs",
+    menCornrowsPrice: "From €40 · 2–4 hrs", menBoxPrice: "From €50 · 2–4 hrs",
+    policiesEyebrow: "Important information", policiesHeading: "Bookings, payments and cancellations",
+    depositPolicyHeading: "Deposit and payment",
+    depositPolicyText: "A 20% deposit of the total price is required to confirm an appointment. The remaining 80% is due on the day of the service. The deposit is non-refundable in the event of a late cancellation or no-show.",
+    reschedulePolicyHeading: "Rescheduling",
+    reschedulePolicyText: "You may reschedule your appointment once at no extra cost if you give more than 48 hours' notice. The deposit will be transferred to the new date, subject to availability. A second change, or any change made with 48 hours' notice or less, forfeits the deposit.",
+    clientCancellationHeading: "If you cancel",
+    clientCancellationText: "If you cancel with 48 hours' notice or less, or do not attend your appointment, the deposit is non-refundable.",
+    businessCancellationHeading: "If KEREN's Hair cancels",
+    businessCancellationText: "If we have to cancel your appointment, you will receive a full refund of your deposit and priority when rescheduling. If we give you less than 24 hours' notice, you will also receive a 10% discount on the rescheduled appointment, calculated on the hairstyle's base price, excluding the home-visit fee and accessories.",
+    appointmentNoticesHeading: "Additional notices",
+    sensitivityNotice: "Please let us know before your appointment if you have sensitive skin, known allergies, or a history of reactions to hair products.",
+    tensionNotice: "Tight braids may cause temporary tension. Please let us know during the service if you feel too much pressure.",
+    withdrawalNotice: "As this is a scheduled service, the 14-day right of withdrawal for distance purchases does not apply once the service has been provided.",
+    policyAgreementPrefix: "I have read and agree to the",
+    policyAgreementLink: "booking, payment and cancellation policy.",
+    policyAcceptanceRequired: "You must accept the booking, payment and cancellation policy before submitting your booking.",
+    privacyHeading: "Privacy notice (GDPR)",
+    privacyPageTitle: "Privacy notice | Neilis",
+    languageSelector: "Language selector", languageLabel: "Language",
+    privacy: "Privacy", policies: "Policies",
+    privacyText: "We collect your name, WhatsApp number, hair type and length, preferred style, and preferred date solely to manage your booking and contact you. We do not share your data with third parties. You may request deletion of your data at any time by contacting us on WhatsApp.",
+    messagePolicyAcceptance: "Booking, payment and cancellation policy accepted",
+    privacyBack: "Back to Neilis"
   }
 };
 
@@ -221,7 +302,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('[data-i18n-aria-label]').forEach((element) => {
       element.setAttribute('aria-label', text(element.dataset.i18nAriaLabel));
     });
-    document.title = text('pageTitle');
+    const titleElement = document.querySelector('title[data-i18n]');
+    document.title = text(titleElement?.dataset.i18n || 'pageTitle');
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) metaDescription.content = text('metaDescription');
     if (activeCard) showStyleDetails(activeCard);
@@ -337,6 +419,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const largoCabello = (formData.get('largoCabello') || '').toString().trim();
     const detallesEstilo = (formData.get('detallesEstilo') || '').toString().trim();
     const fecha = (formData.get('fecha') || '').toString().trim();
+    const policyAccepted = formData.get('policyAcceptance') === 'on';
     const usoFoto = formData.get('usoFoto') === 'on';
     const menor = formData.get('menor') === 'on';
     const requiredValues = [nombre, whatsapp.replace(/\D/g, ''), genderSelect?.value, getSelectedText('tipoCabello'),
@@ -344,6 +427,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (requiredValues.some((value) => !value)) {
       alert(text('validationError'));
+      return;
+    }
+    if (!policyAccepted) {
+      alert(text('policyAcceptanceRequired'));
       return;
     }
     if (genderSelect.value === 'child' && !referenceInput?.files.length) {
@@ -368,6 +455,7 @@ document.addEventListener('DOMContentLoaded', () => {
       `${text('messageStyle')}: ${styleName}`,
       `${text('messageDetails')}: ${detallesEstilo}`,
       `${text('messageDate')}: ${formattedDate}`,
+      `${text('messagePolicyAcceptance')}: ${text('yes')}`,
       `${text('messagePhotoConsent')}: ${usoFoto ? text('yes') : text('no')}`,
       `${text('messageMinor')}: ${menor ? text('yes') : text('no')}`
     ];

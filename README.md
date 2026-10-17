@@ -1,6 +1,6 @@
-# KEREN'S Hair
+# Neilis
 
-Landing page para KEREN'S Hair, con servicio a domicilio, proceso de reserva y formulario para enviar la solicitud por WhatsApp.
+Landing page para Neilis, con servicio a domicilio, proceso de reserva y formulario para enviar la solicitud por WhatsApp.
 
 ## Características
 

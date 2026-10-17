@@ -262,15 +262,6 @@ p { color: var(--muted); }
   background: var(--white);
   font-size: 0.95rem;
 }
-.legal-policy { background: var(--off-white); }
-.legal-content { max-width: 860px; }
-.legal-content h2 { margin-bottom: 2.5rem; }
-.legal-policy-group + .legal-policy-group { margin-top: 2rem; }
-.legal-policy-group h3 { margin-bottom: 0.6rem; font-size: 1.45rem; }
-.legal-policy-group p { margin: 0.6rem 0; }
-.legal-page-heading { font-size: clamp(2.5rem, 6vw, 4rem); }
-.legal-page-links { display: flex; flex-wrap: wrap; gap: 1.2rem; margin-top: 2rem; color: var(--navy); font-weight: 700; }
-.legal-page-links a:hover { color: var(--gold); }
 .booking-form {
   padding: 2rem;
   background: var(--white);

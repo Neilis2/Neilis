@@ -21,12 +21,12 @@ const translations = {
     portfolioText: "Toca cada estilo para conocer su duración aproximada y más detalles.",
     womenStyles: "Estilos protectores y trenzas", menStyles: "Diseños definidos y actuales",
     kidsStyles: "Peinados cómodos y divertidos", photoComing: "Foto próximamente",
-    womenBoxPrice: "Desde €45 · 4–7 h", womenKnotlessPrice: "Desde €55 · 4–6 h",
-    womenCornrowsPrice: "Desde €35 · 2–4 h", womenFulaniPrice: "Desde €50 · 3–5 h",
-    womenHalfUpPrice: "Desde €45 · 3–4 h",
-    womenFeedInPrice: "Desde €55 · 4–7 h",
-    womenBohoPrice: "Desde €45 · 3–5 h", womenTwistsPrice: "Desde €40 · 3–5 h",
-    menCornrowsPrice: "Desde €35 · 2–4 h", menBoxPrice: "Desde €40 · 2–4 h",
+    womenBoxPrice: "€65 · 4–7 h", womenKnotlessPrice: "€80 · 4–6 h",
+    womenCornrowsPrice: "€40 · 2–4 h", womenFulaniPrice: "€60 · 3–5 h",
+    womenHalfUpPrice: "€50 · 3–4 h",
+    womenFeedInPrice: "€65 · 4–7 h",
+    womenBohoPrice: "€55 · 3–5 h", womenTwistsPrice: "€50 · 3–5 h",
+    menCornrowsPrice: "€40 · 2–4 h", menBoxPrice: "€50 · 2–4 h",
     kidsReference: "Imagen de referencia", kidsReferenceDesc: "Personalizado",
     boxDuration: "4–7 horas", knotlessDuration: "4–6 horas",
     shortDuration: "2–4 horas", mediumDuration: "3–5 horas",
@@ -75,7 +75,74 @@ const translations = {
     messageHairLength: "Largo de cabello", messageStyle: "Estilo deseado",
     messageDetails: "Detalles del estilo", messageDate: "Fecha preferida",
     messagePhotoConsent: "Uso de foto en portafolio", messageMinor: "Reserva para un menor",
-    yes: "Sí", no: "No"
+    yes: "Sí", no: "No",
+    policyConsent: "He leído y acepto la política de reservas, pagos y cancelaciones.",
+    policyConsentError: "Debes aceptar la política de reservas, pagos y cancelaciones antes de enviar tu reserva.",
+    policiesTitle: "Políticas de reservas y cancelaciones",
+    depositPolicyTitle: "Depósito y pago",
+    depositPolicyText: "Para confirmar una cita, se requiere un depósito del 20% del precio total. El 80% restante se paga el día del servicio. El depósito no es reembolsable en caso de cancelación tardía o inasistencia.",
+    reschedulePolicyTitle: "Cambios de fecha",
+    reschedulePolicyText: "Puedes mover tu cita una sola vez y sin costo adicional si avisas con más de 48 horas de anticipación. El depósito se transfiere a la nueva fecha, según disponibilidad. Un segundo cambio, o cualquier cambio con 48 horas o menos de anticipación, implica la pérdida del depósito.",
+    clientCancelPolicyTitle: "Si cancela la clienta",
+    clientCancelPolicyText: "Si cancelas con 48 horas o menos de anticipación, o no te presentas, el depósito no es reembolsable.",
+    businessCancelPolicyTitle: "Si cancela KEREN's Hair",
+    businessCancelPolicyText: "Si debemos cancelar la cita, recibirás un reembolso total del depósito y tendrás prioridad para reagendar. Si el aviso es con menos de 24 horas, recibirás además un 10% de descuento en la cita reagendada (calculado sobre el precio base del peinado, sin domicilio ni accesorios).",
+    additionalNoticesTitle: "Avisos adicionales",
+    sensitivityNotice: "Si tienes piel sensible, alergias conocidas o antecedentes de reacciones a productos capilares, avísanos antes de tu cita.",
+    tensionNotice: "Las trenzas ajustadas pueden generar tensión temporal. Por favor avísanos durante el servicio si sientes demasiada presión.",
+    withdrawalNotice: "Al tratarse de un servicio agendado, el derecho de desistimiento de 14 días de las compras a distancia no aplica una vez prestado el servicio.",
+    privacyTitle: "Privacidad (AVG/GDPR)",
+    privacyText: "Recogemos tu nombre, WhatsApp, tipo y largo de cabello, estilo deseado y fecha preferida, únicamente para gestionar tu reserva y contactarte. No compartimos tus datos con terceros. Puedes solicitar la eliminación de tus datos en cualquier momento escribiéndonos por WhatsApp."
+  },
+  en: {
+    womenBoxPrice: "€65 · 4–7 h", womenKnotlessPrice: "€80 · 4–6 h",
+    womenCornrowsPrice: "€40 · 2–4 h", womenFulaniPrice: "€60 · 3–5 h",
+    womenHalfUpPrice: "€50 · 3–4 h", womenFeedInPrice: "€65 · 4–7 h",
+    womenBohoPrice: "€55 · 3–5 h", womenTwistsPrice: "€50 · 3–5 h",
+    menCornrowsPrice: "€40 · 2–4 h", menBoxPrice: "€50 · 2–4 h",
+    privacy: "Privacy", policies: "Policies", closeDialog: "Close",
+    policyConsent: "I have read and accept the booking, payment and cancellation policy.",
+    policyConsentError: "You must accept the booking, payment and cancellation policy before submitting your booking.",
+    policiesTitle: "Booking and cancellation policies",
+    depositPolicyTitle: "Deposit and payment",
+    depositPolicyText: "A deposit of 20% of the total price is required to confirm an appointment. The remaining 80% is due on the day of the service. The deposit is non-refundable in the event of a late cancellation or a no-show.",
+    reschedulePolicyTitle: "Rescheduling",
+    reschedulePolicyText: "You may reschedule your appointment once at no extra cost if you give more than 48 hours' notice. The deposit will be transferred to the new date, subject to availability. A second reschedule, or any change made with 48 hours' notice or less, means forfeiting the deposit.",
+    clientCancelPolicyTitle: "If the client cancels",
+    clientCancelPolicyText: "If you cancel with 48 hours' notice or less, or do not show up, the deposit is non-refundable.",
+    businessCancelPolicyTitle: "If KEREN's Hair cancels",
+    businessCancelPolicyText: "If we have to cancel the appointment, you will receive a full refund of your deposit and priority when rescheduling. If we notify you less than 24 hours in advance, you will also receive 10% off the rescheduled appointment (calculated on the hairstyle's base price, excluding travel and accessories).",
+    additionalNoticesTitle: "Additional notices",
+    sensitivityNotice: "If you have sensitive skin, known allergies or a history of reactions to hair products, please let us know before your appointment.",
+    tensionNotice: "Tight braids may cause temporary tension. Please let us know during the service if you feel too much pressure.",
+    withdrawalNotice: "As this is a scheduled service, the 14-day right of withdrawal for distance purchases does not apply once the service has been provided.",
+    privacyTitle: "Privacy (AVG/GDPR)",
+    privacyText: "We collect your name, WhatsApp number, hair type and length, desired style and preferred date solely to manage your booking and contact you. We do not share your data with third parties. You can request deletion of your data at any time by contacting us on WhatsApp."
+  },
+  nl: {
+    womenBoxPrice: "€65 · 4–7 uur", womenKnotlessPrice: "€80 · 4–6 uur",
+    womenCornrowsPrice: "€40 · 2–4 uur", womenFulaniPrice: "€60 · 3–5 uur",
+    womenHalfUpPrice: "€50 · 3–4 uur", womenFeedInPrice: "€65 · 4–7 uur",
+    womenBohoPrice: "€55 · 3–5 uur", womenTwistsPrice: "€50 · 3–5 uur",
+    menCornrowsPrice: "€40 · 2–4 uur", menBoxPrice: "€50 · 2–4 uur",
+    privacy: "Privacy", policies: "Beleid", closeDialog: "Sluiten",
+    policyConsent: "Ik heb het boekings-, betalings- en annuleringsbeleid gelezen en ga ermee akkoord.",
+    policyConsentError: "Je moet akkoord gaan met het boekings-, betalings- en annuleringsbeleid voordat je je boeking verstuurt.",
+    policiesTitle: "Boekings- en annuleringsbeleid",
+    depositPolicyTitle: "Aanbetaling en betaling",
+    depositPolicyText: "Om een afspraak te bevestigen, is een aanbetaling van 20% van de totaalprijs vereist. De resterende 80% betaal je op de dag van de behandeling. De aanbetaling wordt niet terugbetaald bij een late annulering of als je niet komt opdagen.",
+    reschedulePolicyTitle: "Afspraak verzetten",
+    reschedulePolicyText: "Je kunt je afspraak één keer kosteloos verzetten als je dit meer dan 48 uur van tevoren laat weten. De aanbetaling wordt overgezet naar de nieuwe datum, afhankelijk van beschikbaarheid. Een tweede wijziging, of een wijziging binnen 48 uur voor de afspraak, betekent dat je de aanbetaling verliest.",
+    clientCancelPolicyTitle: "Als de klant annuleert",
+    clientCancelPolicyText: "Als je binnen 48 uur voor de afspraak annuleert of niet komt opdagen, wordt de aanbetaling niet terugbetaald.",
+    businessCancelPolicyTitle: "Als KEREN's Hair annuleert",
+    businessCancelPolicyText: "Als wij de afspraak moeten annuleren, krijg je de volledige aanbetaling terug en krijg je voorrang bij het opnieuw inplannen. Als we dit minder dan 24 uur van tevoren laten weten, ontvang je ook 10% korting op de opnieuw geplande afspraak (berekend over de basisprijs van het kapsel, exclusief reiskosten en accessoires).",
+    additionalNoticesTitle: "Aanvullende mededelingen",
+    sensitivityNotice: "Laat het ons vóór je afspraak weten als je een gevoelige huid, bekende allergieën of eerdere reacties op haarproducten hebt gehad.",
+    tensionNotice: "Strakke vlechten kunnen tijdelijk spanning veroorzaken. Laat het ons tijdens de behandeling weten als je te veel druk voelt.",
+    withdrawalNotice: "Omdat het om een afspraak voor een dienst gaat, geldt het wettelijke herroepingsrecht van 14 dagen voor aankopen op afstand niet zodra de dienst is uitgevoerd.",
+    privacyTitle: "Privacy (AVG/GDPR)",
+    privacyText: "We verzamelen je naam, WhatsApp-nummer, haartype en haarlengte, gewenste stijl en voorkeursdatum uitsluitend om je boeking te beheren en contact met je op te nemen. We delen je gegevens niet met derden. Je kunt op elk moment verzoeken om je gegevens te verwijderen door ons via WhatsApp te berichten."
   }
 };
 
@@ -292,6 +359,17 @@ document.addEventListener('DOMContentLoaded', () => {
   dialog?.addEventListener('click', (event) => {
   if (event.target === dialog) closeStyleDialog();
   });
+  document.querySelectorAll('[data-legal-dialog]').forEach((link) => {
+    const legalDialog = document.getElementById(link.dataset.legalDialog);
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      if (!legalDialog?.open) legalDialog?.showModal();
+    });
+    legalDialog?.querySelector('.dialog-close')?.addEventListener('click', () => legalDialog.close());
+    legalDialog?.addEventListener('click', (event) => {
+      if (event.target === legalDialog) legalDialog.close();
+    });
+  });
   document.querySelector('[data-i18n="bookThisStyle"]')?.addEventListener('click', () => {
     if (!activeCard) return;
     genderSelect.value = activeCard.closest('.portfolio-group').dataset.audience;
@@ -344,6 +422,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (requiredValues.some((value) => !value)) {
       alert(text('validationError'));
+      return;
+    }
+    if (!formData.get('policyConsent')) {
+      alert(text('policyConsentError'));
       return;
     }
     if (genderSelect.value === 'child' && !referenceInput?.files.length) {

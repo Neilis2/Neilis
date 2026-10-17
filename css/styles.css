@@ -127,7 +127,7 @@ p { color: var(--muted); }
   inset: 0 0 0 43%;
   display: grid;
   place-items: center;
-  background: linear-gradient(90deg, rgba(7,27,58,0.2), rgba(7,27,58,0) 35%), url("../assets/images/hero/hero-keren-hair.jpg") center/cover no-repeat;
+  background: linear-gradient(90deg, rgba(7,27,58,0.2), rgba(7,27,58,0) 35%), url("../assets/images/hero/fondo.jpg") center/cover no-repeat;
 }
 .hero-image::before {
   content: "";

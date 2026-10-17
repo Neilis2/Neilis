@@ -366,6 +366,7 @@ textarea { resize: vertical; min-height: 120px; }
   color: var(--muted);
   font-size: 0.9rem;
 }
+.legal-links a { font-weight: 600; }
 
 .style-dialog {
   position: fixed;
